@@ -1,0 +1,1 @@
+cmd_drivers/misc/mei/mei.mod := printf '%s\n'   init.o hbm.o interrupt.o client.o main.o dma-ring.o bus.o bus-fixup.o debugfs.o mei-trace.o | awk '!x[$$0]++ { print("drivers/misc/mei/"$$0) }' > drivers/misc/mei/mei.mod

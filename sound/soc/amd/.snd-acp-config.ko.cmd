@@ -1,0 +1,1 @@
+cmd_sound/soc/amd/snd-acp-config.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/amd/snd-acp-config.ko sound/soc/amd/snd-acp-config.o sound/soc/amd/snd-acp-config.mod.o;  true

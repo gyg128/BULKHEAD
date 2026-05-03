@@ -1,0 +1,1 @@
+cmd_kernel/debug/kdb/built-in.a := rm -f kernel/debug/kdb/built-in.a;  printf "kernel/debug/kdb/%s " kdb_io.o kdb_main.o kdb_support.o kdb_bt.o gen-kdb_cmds.o kdb_bp.o kdb_debugger.o kdb_keyboard.o | xargs ar cDPrST kernel/debug/kdb/built-in.a

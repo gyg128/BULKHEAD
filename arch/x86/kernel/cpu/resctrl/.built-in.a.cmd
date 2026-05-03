@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpu/resctrl/built-in.a := rm -f arch/x86/kernel/cpu/resctrl/built-in.a;  printf "arch/x86/kernel/cpu/resctrl/%s " core.o rdtgroup.o monitor.o ctrlmondata.o pseudo_lock.o | xargs ar cDPrST arch/x86/kernel/cpu/resctrl/built-in.a

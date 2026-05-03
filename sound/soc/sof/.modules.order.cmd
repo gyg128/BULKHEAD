@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/modules.order := {   cat sound/soc/sof/intel/modules.order;   echo sound/soc/sof/snd-sof.ko;   echo sound/soc/sof/snd-sof-utils.ko;   echo sound/soc/sof/snd-sof-pci.ko;   echo sound/soc/sof/snd-sof-probes.ko;   cat sound/soc/sof/amd/modules.order;   cat sound/soc/sof/xtensa/modules.order; :; } > sound/soc/sof/modules.order

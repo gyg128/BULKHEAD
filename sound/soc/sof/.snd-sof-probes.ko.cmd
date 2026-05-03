@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/snd-sof-probes.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sof/snd-sof-probes.ko sound/soc/sof/snd-sof-probes.o sound/soc/sof/snd-sof-probes.mod.o;  true

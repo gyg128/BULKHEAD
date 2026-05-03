@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/modules.order := {   cat drivers/platform/x86/amd/modules.order;   cat drivers/platform/x86/dell/modules.order;   cat drivers/platform/x86/intel/modules.order;   echo drivers/platform/x86/wmi-bmof.ko;   echo drivers/platform/x86/serial-multi-instantiate.ko; :; } > drivers/platform/x86/modules.order

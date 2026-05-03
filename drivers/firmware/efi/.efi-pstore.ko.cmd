@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/efi-pstore.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/firmware/efi/efi-pstore.ko drivers/firmware/efi/efi-pstore.o drivers/firmware/efi/efi-pstore.mod.o;  true

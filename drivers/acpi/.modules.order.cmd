@@ -1,0 +1,1 @@
+cmd_drivers/acpi/modules.order := {   cat drivers/acpi/acpica/modules.order;   cat drivers/acpi/numa/modules.order;   cat drivers/acpi/apei/modules.order;   cat drivers/acpi/pmic/modules.order;   cat drivers/acpi/dptf/modules.order;   echo drivers/acpi/acpi_tad.ko;   echo drivers/acpi/acpi_pad.ko; :; } > drivers/acpi/modules.order

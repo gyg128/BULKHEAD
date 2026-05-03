@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/built-in.a := rm -f drivers/rapidio/built-in.a;  printf "drivers/rapidio/%s " rio.o rio-access.o rio-driver.o rio-sysfs.o switches/built-in.a devices/built-in.a | xargs ar cDPrST drivers/rapidio/built-in.a

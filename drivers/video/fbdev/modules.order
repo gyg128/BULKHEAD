@@ -1,0 +1,4 @@
+drivers/video/fbdev/core/sysfillrect.ko
+drivers/video/fbdev/core/syscopyarea.ko
+drivers/video/fbdev/core/sysimgblt.ko
+drivers/video/fbdev/core/fb_sys_fops.ko

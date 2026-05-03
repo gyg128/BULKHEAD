@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/cpu/sgx/built-in.a := rm -f arch/x86/kernel/cpu/sgx/built-in.a;  printf "arch/x86/kernel/cpu/sgx/%s " driver.o encl.o ioctl.o main.o virt.o | xargs ar cDPrST arch/x86/kernel/cpu/sgx/built-in.a

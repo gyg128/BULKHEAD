@@ -1,0 +1,1 @@
+cmd_drivers/char/modules.order := {   cat drivers/char/hw_random/modules.order;   cat drivers/char/agp/modules.order;   cat drivers/char/tpm/modules.order;   echo drivers/char/lp.ko;   echo drivers/char/ppdev.ko; :; } > drivers/char/modules.order

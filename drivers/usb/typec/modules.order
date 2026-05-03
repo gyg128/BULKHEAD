@@ -1,0 +1,2 @@
+drivers/usb/typec/typec.ko
+drivers/usb/typec/tipd/tps6598x.ko

@@ -1,0 +1,19 @@
+!<thin>
+//                                              156       `
+x86/wmi.o/
+x86/intel/pmc/core.o/
+x86/intel/pmc/pltdrv.o/
+x86/intel/turbo_max_3.o/
+x86/p2sb.o/
+x86/intel_scu_ipc.o/
+x86/intel_scu_pcidrv.o/
+x86/pmc_atom.o/
+
+/0              0           0     0     644     250344    `
+/11             0           0     0     644     337792    `
+/33             0           0     0     644     110384    `
+/57             0           0     0     644     34024     `
+/82             0           0     0     644     165352    `
+/94             0           0     0     644     144768    `
+/115            0           0     0     644     164272    `
+/139            0           0     0     644     195896    `

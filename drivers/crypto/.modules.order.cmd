@@ -1,0 +1,1 @@
+cmd_drivers/crypto/modules.order := {   cat drivers/crypto/ccp/modules.order;   cat drivers/crypto/xilinx/modules.order;   cat drivers/crypto/hisilicon/modules.order;   cat drivers/crypto/keembay/modules.order; :; } > drivers/crypto/modules.order

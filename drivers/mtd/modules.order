@@ -1,0 +1,6 @@
+drivers/mtd/parsers/cmdlinepart.ko
+drivers/mtd/chips/chipreg.ko
+drivers/mtd/maps/map_funcs.ko
+drivers/mtd/nand/nandcore.ko
+drivers/mtd/mtd.ko
+drivers/mtd/spi-nor/spi-nor.ko

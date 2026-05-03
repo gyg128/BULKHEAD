@@ -1,0 +1,2 @@
+drivers/char/lp.ko
+drivers/char/ppdev.ko

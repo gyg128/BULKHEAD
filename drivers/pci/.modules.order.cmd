@@ -1,0 +1,1 @@
+cmd_drivers/pci/modules.order := {   cat drivers/pci/msi/modules.order;   cat drivers/pci/pcie/modules.order;   cat drivers/pci/hotplug/modules.order;   cat drivers/pci/endpoint/modules.order;   cat drivers/pci/controller/modules.order;   cat drivers/pci/switch/modules.order; :; } > drivers/pci/modules.order

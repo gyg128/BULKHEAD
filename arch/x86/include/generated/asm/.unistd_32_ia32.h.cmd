@@ -1,0 +1,1 @@
+cmd_arch/x86/include/generated/asm/unistd_32_ia32.h := sh ./scripts/syscallhdr.sh --abis i386 --emit-nr  --prefix ia32_ arch/x86/entry/syscalls/syscall_32.tbl arch/x86/include/generated/asm/unistd_32_ia32.h

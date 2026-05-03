@@ -1,0 +1,11 @@
+!<thin>
+//                                              106       `
+dwc/pcie-designware.o/
+dwc/pcie-designware-host.o/
+dwc/pcie-designware-ep.o/
+dwc/pcie-designware-plat.o/
+
+/0              0           0     0     644     277360    `
+/23             0           0     0     644     242032    `
+/51             0           0     0     644     254360    `
+/77             0           0     0     644     191128    `

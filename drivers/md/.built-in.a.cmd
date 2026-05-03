@@ -1,0 +1,1 @@
+cmd_drivers/md/built-in.a := rm -f drivers/md/built-in.a;  printf "drivers/md/%s " md.o md-bitmap.o md-autodetect.o dm-init.o dm-uevent.o dm-zone.o dm-ima.o dm-audit.o dm.o dm-table.o dm-target.o dm-linear.o dm-stripe.o dm-ioctl.o dm-io.o dm-kcopyd.o dm-sysfs.o dm-stats.o dm-rq.o dm-io-rewind.o dm-builtin.o | xargs ar cDPrST drivers/md/built-in.a

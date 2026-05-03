@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/modules.order := {   echo net/ipv6/netfilter/ip6_tables.ko;   echo net/ipv6/netfilter/ip6table_mangle.ko;   echo net/ipv6/netfilter/nf_defrag_ipv6.ko;   echo net/ipv6/netfilter/nf_tproxy_ipv6.ko; :; } > net/ipv6/netfilter/modules.order

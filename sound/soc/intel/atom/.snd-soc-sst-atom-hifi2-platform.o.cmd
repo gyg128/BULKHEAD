@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/snd-soc-sst-atom-hifi2-platform.o := ld -m elf_x86_64 -z noexecstack   -r -o sound/soc/intel/atom/snd-soc-sst-atom-hifi2-platform.o @sound/soc/intel/atom/snd-soc-sst-atom-hifi2-platform.mod 

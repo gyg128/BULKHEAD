@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/soundwire-generic-allocation.mod := printf '%s\n'   generic_bandwidth_allocation.o | awk '!x[$$0]++ { print("drivers/soundwire/"$$0) }' > drivers/soundwire/soundwire-generic-allocation.mod

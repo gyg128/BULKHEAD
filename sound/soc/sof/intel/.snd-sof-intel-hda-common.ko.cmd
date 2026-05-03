@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/intel/snd-sof-intel-hda-common.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sof/intel/snd-sof-intel-hda-common.ko sound/soc/sof/intel/snd-sof-intel-hda-common.o sound/soc/sof/intel/snd-sof-intel-hda-common.mod.o;  true

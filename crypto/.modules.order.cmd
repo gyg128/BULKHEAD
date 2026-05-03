@@ -1,0 +1,1 @@
+cmd_crypto/modules.order := {   cat crypto/asymmetric_keys/modules.order;   echo crypto/echainiv.ko;   echo crypto/cryptd.ko;   echo crypto/authenc.ko;   echo crypto/authencesn.ko;   echo crypto/crypto_simd.ko; :; } > crypto/modules.order

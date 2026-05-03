@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/modules.order := {   echo drivers/video/fbdev/core/sysfillrect.ko;   echo drivers/video/fbdev/core/syscopyarea.ko;   echo drivers/video/fbdev/core/sysimgblt.ko;   echo drivers/video/fbdev/core/fb_sys_fops.ko; :; } > drivers/video/fbdev/core/modules.order

@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/sst/snd-intel-sst-core.mod := printf '%s\n'   sst.o sst_ipc.o sst_stream.o sst_drv_interface.o sst_loader.o sst_pvt.o | awk '!x[$$0]++ { print("sound/soc/intel/atom/sst/"$$0) }' > sound/soc/intel/atom/sst/snd-intel-sst-core.mod

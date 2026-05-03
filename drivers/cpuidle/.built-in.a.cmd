@@ -1,0 +1,1 @@
+cmd_drivers/cpuidle/built-in.a := rm -f drivers/cpuidle/built-in.a;  printf "drivers/cpuidle/%s " cpuidle.o driver.o governor.o sysfs.o governors/built-in.a poll_state.o | xargs ar cDPrST drivers/cpuidle/built-in.a

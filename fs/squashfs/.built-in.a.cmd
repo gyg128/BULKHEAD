@@ -1,0 +1,1 @@
+cmd_fs/squashfs/built-in.a := rm -f fs/squashfs/built-in.a;  printf "fs/squashfs/%s " block.o cache.o dir.o export.o file.o fragment.o id.o inode.o namei.o super.o symlink.o decompressor.o page_actor.o file_direct.o decompressor_multi_percpu.o xattr.o xattr_id.o lz4_wrapper.o lzo_wrapper.o xz_wrapper.o zlib_wrapper.o zstd_wrapper.o | xargs ar cDPrST fs/squashfs/built-in.a

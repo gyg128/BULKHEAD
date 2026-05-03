@@ -1,0 +1,8 @@
+sound/core/snd.ko
+sound/core/snd-ctl-led.ko
+sound/core/snd-hwdep.ko
+sound/core/snd-timer.ko
+sound/core/snd-pcm.ko
+sound/core/snd-seq-device.ko
+sound/core/seq/snd-seq.ko
+sound/core/snd-compress.ko

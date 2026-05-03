@@ -1,0 +1,1 @@
+cmd_drivers/char/agp/built-in.a := rm -f drivers/char/agp/built-in.a;  printf "drivers/char/agp/%s " backend.o generic.o isoch.o amd64-agp.o intel-agp.o intel-gtt.o via-agp.o | xargs ar cDPrST drivers/char/agp/built-in.a

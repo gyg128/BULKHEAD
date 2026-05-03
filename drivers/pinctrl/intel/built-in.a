@@ -1,0 +1,9 @@
+!<thin>
+//                                              60        `
+pinctrl-baytrail.o/
+pinctrl-cherryview.o/
+pinctrl-intel.o/
+
+/0              0           0     0     644     285104    `
+/20             0           0     0     644     298336    `
+/42             0           0     0     644     285736    `

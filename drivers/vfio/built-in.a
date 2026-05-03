@@ -1,0 +1,24 @@
+!<thin>
+//                                              194       `
+vfio_main.o/
+iova_bitmap.o/
+container.o/
+virqfd.o/
+vfio_iommu_type1.o/
+pci/vfio_pci_core.o/
+pci/vfio_pci_intrs.o/
+pci/vfio_pci_rdwr.o/
+pci/vfio_pci_config.o/
+pci/vfio_pci.o/
+pci/vfio_pci_igd.o/
+/0              0           0     0     644     279264    `
+/13             0           0     0     644     128968    `
+/28             0           0     0     644     209128    `
+/41             0           0     0     644     157512    `
+/51             0           0     0     644     368064    `
+/71             0           0     0     644     327936    `
+/92             0           0     0     644     218384    `
+/114            0           0     0     644     209736    `
+/135            0           0     0     644     262968    `
+/158            0           0     0     644     199248    `
+/174            0           0     0     644     195624    `

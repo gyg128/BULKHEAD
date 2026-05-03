@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-audio.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/leds/trigger/ledtrig-audio.ko drivers/leds/trigger/ledtrig-audio.o drivers/leds/trigger/ledtrig-audio.mod.o;  true

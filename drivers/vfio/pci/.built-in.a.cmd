@@ -1,0 +1,1 @@
+cmd_drivers/vfio/pci/built-in.a := rm -f drivers/vfio/pci/built-in.a;  printf "drivers/vfio/pci/%s " vfio_pci_core.o vfio_pci_intrs.o vfio_pci_rdwr.o vfio_pci_config.o vfio_pci.o vfio_pci_igd.o | xargs ar cDPrST drivers/vfio/pci/built-in.a

@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/fpu/built-in.a := rm -f arch/x86/kernel/fpu/built-in.a;  printf "arch/x86/kernel/fpu/%s " init.o bugs.o core.o regset.o signal.o xstate.o | xargs ar cDPrST arch/x86/kernel/fpu/built-in.a

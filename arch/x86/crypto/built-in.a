@@ -1,0 +1,10 @@
+!<thin>
+//                                              80        `
+blake2s-core.o/
+blake2s-glue.o/
+crc32c-intel_glue.o/
+crc32c-pcl-intel-asm_64.o/
+/0              0           0     0     644     4768      `
+/16             0           0     0     644     15160     `
+/32             0           0     0     644     102384    `
+/53             0           0     0     644     24360     `

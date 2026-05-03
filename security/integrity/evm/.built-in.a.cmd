@@ -1,0 +1,1 @@
+cmd_security/integrity/evm/built-in.a := rm -f security/integrity/evm/built-in.a;  printf "security/integrity/evm/%s " evm_main.o evm_crypto.o evm_secfs.o evm_posix_acl.o | xargs ar cDPrST security/integrity/evm/built-in.a

@@ -1,0 +1,1 @@
+cmd_security/keys/trusted-keys/built-in.a := rm -f security/keys/trusted-keys/built-in.a;  printf "security/keys/trusted-keys/%s " trusted_core.o trusted_tpm1.o trusted_tpm2.o tpm2key.asn1.o | xargs ar cDPrST security/keys/trusted-keys/built-in.a

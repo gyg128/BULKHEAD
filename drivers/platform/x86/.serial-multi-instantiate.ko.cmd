@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/serial-multi-instantiate.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/serial-multi-instantiate.ko drivers/platform/x86/serial-multi-instantiate.o drivers/platform/x86/serial-multi-instantiate.mod.o;  true

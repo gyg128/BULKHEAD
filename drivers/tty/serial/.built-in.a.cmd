@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/built-in.a := rm -f drivers/tty/serial/built-in.a;  printf "drivers/tty/serial/%s " serial_core.o earlycon.o 8250/built-in.a max310x.o sccnxp.o serial_mctrl_gpio.o kgdb_nmi.o kgdboc.o | xargs ar cDPrST drivers/tty/serial/built-in.a

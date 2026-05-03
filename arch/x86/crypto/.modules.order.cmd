@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/modules.order := {   echo arch/x86/crypto/aesni-intel.ko;   echo arch/x86/crypto/ghash-clmulni-intel.ko;   echo arch/x86/crypto/crc32-pclmul.ko;   echo arch/x86/crypto/crct10dif-pclmul.ko; :; } > arch/x86/crypto/modules.order

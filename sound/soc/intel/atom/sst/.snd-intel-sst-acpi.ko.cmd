@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/sst/snd-intel-sst-acpi.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/atom/sst/snd-intel-sst-acpi.ko sound/soc/intel/atom/sst/snd-intel-sst-acpi.o sound/soc/intel/atom/sst/snd-intel-sst-acpi.mod.o;  true

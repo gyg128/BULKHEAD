@@ -1,0 +1,10 @@
+sound/soc/sof/intel/snd-sof-intel-hda-common.ko
+sound/soc/sof/intel/snd-sof-intel-hda.ko
+sound/soc/sof/intel/snd-sof-pci-intel-tgl.ko
+sound/soc/sof/snd-sof.ko
+sound/soc/sof/snd-sof-utils.ko
+sound/soc/sof/snd-sof-pci.ko
+sound/soc/sof/snd-sof-probes.ko
+sound/soc/sof/amd/snd-sof-amd-acp.ko
+sound/soc/sof/amd/snd-sof-amd-renoir.ko
+sound/soc/sof/xtensa/snd-sof-xtensa-dsp.ko

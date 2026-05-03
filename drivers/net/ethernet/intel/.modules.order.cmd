@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/modules.order := {   cat drivers/net/ethernet/intel/e1000/modules.order;   cat drivers/net/ethernet/intel/ixgbe/modules.order; :; } > drivers/net/ethernet/intel/modules.order

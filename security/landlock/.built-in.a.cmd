@@ -1,0 +1,1 @@
+cmd_security/landlock/built-in.a := rm -f security/landlock/built-in.a;  printf "security/landlock/%s " setup.o syscalls.o object.o ruleset.o cred.o ptrace.o fs.o | xargs ar cDPrST security/landlock/built-in.a

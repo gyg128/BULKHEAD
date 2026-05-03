@@ -1,0 +1,11 @@
+!<thin>
+//                                              100       `
+drm/drm_nomodeset.o/
+drm/drm_panel_orientation_quirks.o/
+drm/drm_mipi_dsi.o/
+vga/vga_switcheroo.o/
+
+/0              0           0     0     644     7048      `
+/21             0           0     0     644     26056     `
+/57             0           0     0     644     242288    `
+/77             0           0     0     644     272776    `

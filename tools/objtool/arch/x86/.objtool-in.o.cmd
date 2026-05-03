@@ -1,0 +1,1 @@
+cmd_/home/yg/project/linux/tools/objtool/arch/x86/objtool-in.o :=  ld -r -o /home/yg/project/linux/tools/objtool/arch/x86/objtool-in.o  /home/yg/project/linux/tools/objtool/arch/x86/special.o /home/yg/project/linux/tools/objtool/arch/x86/decode.o

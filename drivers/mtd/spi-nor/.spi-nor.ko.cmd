@@ -1,0 +1,1 @@
+cmd_drivers/mtd/spi-nor/spi-nor.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mtd/spi-nor/spi-nor.ko drivers/mtd/spi-nor/spi-nor.o drivers/mtd/spi-nor/spi-nor.mod.o;  true

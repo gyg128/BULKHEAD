@@ -1,0 +1,19 @@
+!<thin>
+//                                              124       `
+wmi.o/
+intel/pmc/core.o/
+intel/pmc/pltdrv.o/
+intel/turbo_max_3.o/
+p2sb.o/
+intel_scu_ipc.o/
+intel_scu_pcidrv.o/
+pmc_atom.o/
+
+/0              0           0     0     644     250344    `
+/7              0           0     0     644     337792    `
+/25             0           0     0     644     110384    `
+/45             0           0     0     644     34024     `
+/66             0           0     0     644     165352    `
+/74             0           0     0     644     144768    `
+/91             0           0     0     644     164272    `
+/111            0           0     0     644     195896    `

@@ -1,0 +1,1 @@
+cmd_arch/x86/platform/uv/built-in.a := rm -f arch/x86/platform/uv/built-in.a;  printf "arch/x86/platform/uv/%s " bios_uv.o uv_irq.o uv_time.o uv_nmi.o | xargs ar cDPrST arch/x86/platform/uv/built-in.a

@@ -1,0 +1,4 @@
+drivers/usb/host/xhci-pci.ko
+drivers/usb/host/xhci-pci-renesas.ko
+drivers/usb/typec/typec.ko
+drivers/usb/typec/tipd/tps6598x.ko

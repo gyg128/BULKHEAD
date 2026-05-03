@@ -1,0 +1,1 @@
+cmd_arch/x86/kernel/modules.order := {   cat arch/x86/kernel/fpu/modules.order;   cat arch/x86/kernel/cpu/modules.order;   cat arch/x86/kernel/acpi/modules.order;   cat arch/x86/kernel/apic/modules.order;   cat arch/x86/kernel/kprobes/modules.order;   echo arch/x86/kernel/msr.ko; :; } > arch/x86/kernel/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/modules.order := {   echo drivers/soundwire/soundwire-bus.ko;   echo drivers/soundwire/soundwire-generic-allocation.ko;   echo drivers/soundwire/soundwire-cadence.ko;   echo drivers/soundwire/soundwire-intel.ko; :; } > drivers/soundwire/modules.order

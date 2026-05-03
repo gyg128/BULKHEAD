@@ -1,0 +1,4 @@
+drivers/soundwire/soundwire-bus.ko
+drivers/soundwire/soundwire-generic-allocation.ko
+drivers/soundwire/soundwire-cadence.ko
+drivers/soundwire/soundwire-intel.ko

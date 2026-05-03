@@ -1,0 +1,1 @@
+cmd_drivers/parport/parport_pc.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/parport/parport_pc.ko drivers/parport/parport_pc.o drivers/parport/parport_pc.mod.o;  true

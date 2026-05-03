@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-hdac-hda.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-hdac-hda.ko sound/soc/codecs/snd-soc-hdac-hda.o sound/soc/codecs/snd-soc-hdac-hda.mod.o;  true

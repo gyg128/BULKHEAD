@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/built-in.a := rm -f drivers/platform/x86/built-in.a;  printf "drivers/platform/x86/%s " wmi.o amd/built-in.a dell/built-in.a intel/built-in.a p2sb.o intel_scu_ipc.o intel_scu_pcidrv.o pmc_atom.o | xargs ar cDPrST drivers/platform/x86/built-in.a

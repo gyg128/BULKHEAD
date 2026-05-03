@@ -1,0 +1,48 @@
+!<thin>
+//                                              480       `
+e1000/e1000_main.o/
+e1000/e1000_hw.o/
+e1000/e1000_ethtool.o/
+e1000/e1000_param.o/
+ixgbe/ixgbe_main.o/
+ixgbe/ixgbe_common.o/
+ixgbe/ixgbe_ethtool.o/
+ixgbe/ixgbe_82599.o/
+ixgbe/ixgbe_82598.o/
+ixgbe/ixgbe_phy.o/
+ixgbe/ixgbe_sriov.o/
+ixgbe/ixgbe_mbx.o/
+ixgbe/ixgbe_x540.o/
+ixgbe/ixgbe_x550.o/
+ixgbe/ixgbe_lib.o/
+ixgbe/ixgbe_ptp.o/
+ixgbe/ixgbe_xsk.o/
+ixgbe/ixgbe_dcb.o/
+ixgbe/ixgbe_dcb_82598.o/
+ixgbe/ixgbe_dcb_82599.o/
+ixgbe/ixgbe_dcb_nl.o/
+ixgbe/ixgbe_sysfs.o/
+ixgbe/ixgbe_debugfs.o/
+/0              0           0     0     644     670824    `
+/20             0           0     0     644     619152    `
+/38             0           0     0     644     477096    `
+/61             0           0     0     644     403352    `
+/82             0           0     0     644     1051712   `
+/102            0           0     0     644     530792    `
+/124            0           0     0     644     538248    `
+/147            0           0     0     644     441184    `
+/168            0           0     0     644     383192    `
+/189            0           0     0     644     448808    `
+/208            0           0     0     644     479008    `
+/229            0           0     0     644     313368    `
+/248            0           0     0     644     387544    `
+/268            0           0     0     644     486248    `
+/288            0           0     0     644     371208    `
+/307            0           0     0     644     392584    `
+/326            0           0     0     644     470632    `
+/345            0           0     0     644     325056    `
+/364            0           0     0     644     314584    `
+/389            0           0     0     644     313904    `
+/414            0           0     0     644     376424    `
+/436            0           0     0     644     338456    `
+/457            0           0     0     644     344136    `

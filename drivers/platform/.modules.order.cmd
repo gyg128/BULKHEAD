@@ -1,0 +1,1 @@
+cmd_drivers/platform/modules.order := {   cat drivers/platform/x86/modules.order;   cat drivers/platform/mellanox/modules.order;   cat drivers/platform/chrome/modules.order;   cat drivers/platform/surface/modules.order; :; } > drivers/platform/modules.order

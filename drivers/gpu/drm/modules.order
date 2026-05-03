@@ -1,0 +1,6 @@
+drivers/gpu/drm/display/drm_display_helper.ko
+drivers/gpu/drm/drm.ko
+drivers/gpu/drm/drm_buddy.ko
+drivers/gpu/drm/drm_kms_helper.ko
+drivers/gpu/drm/ttm/ttm.ko
+drivers/gpu/drm/i915/i915.ko

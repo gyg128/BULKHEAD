@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/intel/snd-sof-pci-intel-tgl.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/sof/intel/snd-sof-pci-intel-tgl.ko sound/soc/sof/intel/snd-sof-pci-intel-tgl.o sound/soc/sof/intel/snd-sof-pci-intel-tgl.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/firmware/built-in.a := rm -f drivers/firmware/built-in.a;  printf "drivers/firmware/%s " dmi_scan.o edd.o dmi-id.o memmap.o sysfb.o arm_ffa/built-in.a arm_scmi/built-in.a broadcom/built-in.a cirrus/built-in.a meson/built-in.a efi/built-in.a imx/built-in.a psci/built-in.a smccc/built-in.a tegra/built-in.a xilinx/built-in.a | xargs ar cDPrST drivers/firmware/built-in.a

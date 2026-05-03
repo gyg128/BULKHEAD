@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_kms_helper.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/drm_kms_helper.ko drivers/gpu/drm/drm_kms_helper.o drivers/gpu/drm/drm_kms_helper.mod.o;  true

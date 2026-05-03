@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/built-in.a := rm -f drivers/i2c/busses/built-in.a;  printf "drivers/i2c/busses/%s " i2c-designware-common.o i2c-designware-master.o i2c-designware-platdrv.o i2c-designware-amdpsp.o i2c-designware-baytrail.o | xargs ar cDPrST drivers/i2c/busses/built-in.a

@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/ghash-clmulni-intel.mod := printf '%s\n'   ghash-clmulni-intel_asm.o ghash-clmulni-intel_glue.o | awk '!x[$$0]++ { print("arch/x86/crypto/"$$0) }' > arch/x86/crypto/ghash-clmulni-intel.mod

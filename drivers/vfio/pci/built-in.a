@@ -1,0 +1,15 @@
+!<thin>
+//                                              100       `
+vfio_pci_core.o/
+vfio_pci_intrs.o/
+vfio_pci_rdwr.o/
+vfio_pci_config.o/
+vfio_pci.o/
+vfio_pci_igd.o/
+
+/0              0           0     0     644     327936    `
+/17             0           0     0     644     218384    `
+/35             0           0     0     644     209736    `
+/52             0           0     0     644     262968    `
+/71             0           0     0     644     199248    `
+/83             0           0     0     644     195624    `

@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/built-in.a := rm -f drivers/firmware/efi/built-in.a;  printf "drivers/firmware/efi/%s " efi-bgrt.o efi.o vars.o reboot.o memattr.o tpm.o memmap.o esrt.o cper.o runtime-map.o runtime-wrappers.o dev-path-parser.o apple-properties.o rci2-table.o mokvar-table.o sysfb_efi.o earlycon.o cper-x86.o | xargs ar cDPrST drivers/firmware/efi/built-in.a

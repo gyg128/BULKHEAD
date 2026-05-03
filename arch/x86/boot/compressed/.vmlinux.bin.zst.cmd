@@ -1,0 +1,1 @@
+cmd_arch/x86/boot/compressed/vmlinux.bin.zst := { cat arch/x86/boot/compressed/vmlinux.bin arch/x86/boot/compressed/vmlinux.relocs | zstd -22 --ultra; printf \\110\\053\\127\\003; } > arch/x86/boot/compressed/vmlinux.bin.zst

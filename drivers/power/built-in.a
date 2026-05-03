@@ -1,0 +1,16 @@
+!<thin>
+//                                              196       `
+reset/restart-poweroff.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/power_supply_hwmon.o/
+supply/samsung-sdi-battery.o/
+supply/charger-manager.o/
+/0              0           0     0     644     106192    `
+/26             0           0     0     644     221968    `
+/54             0           0     0     644     146944    `
+/83             0           0     0     644     116848    `
+/111            0           0     0     644     128984    `
+/140            0           0     0     644     112368    `
+/170            0           0     0     644     294144    `

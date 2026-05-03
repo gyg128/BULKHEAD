@@ -1,0 +1,1 @@
+cmd_drivers/mtd/nand/modules.order := {   cat drivers/mtd/nand/onenand/modules.order;   cat drivers/mtd/nand/raw/modules.order;   cat drivers/mtd/nand/spi/modules.order;   echo drivers/mtd/nand/nandcore.ko; :; } > drivers/mtd/nand/modules.order

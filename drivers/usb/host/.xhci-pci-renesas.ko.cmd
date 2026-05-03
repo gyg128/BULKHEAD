@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/xhci-pci-renesas.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/xhci-pci-renesas.ko drivers/usb/host/xhci-pci-renesas.o drivers/usb/host/xhci-pci-renesas.mod.o;  true

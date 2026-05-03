@@ -1,0 +1,10 @@
+!<thin>
+//                                              64        `
+trusted_core.o/
+trusted_tpm1.o/
+trusted_tpm2.o/
+tpm2key.asn1.o/
+/0              0           0     0     644     162912    `
+/16             0           0     0     644     230352    `
+/32             0           0     0     644     205272    `
+/48             0           0     0     644     4208      `

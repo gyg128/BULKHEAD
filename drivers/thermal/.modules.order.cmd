@@ -1,0 +1,1 @@
+cmd_drivers/thermal/modules.order := {   cat drivers/thermal/broadcom/modules.order;   cat drivers/thermal/samsung/modules.order;   cat drivers/thermal/intel/modules.order;   cat drivers/thermal/st/modules.order;   cat drivers/thermal/qcom/modules.order;   cat drivers/thermal/tegra/modules.order; :; } > drivers/thermal/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbhid.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/hid/usbhid/usbhid.ko drivers/hid/usbhid/usbhid.o drivers/hid/usbhid/usbhid.mod.o;  true

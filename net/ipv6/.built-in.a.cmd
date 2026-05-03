@@ -1,0 +1,1 @@
+cmd_net/ipv6/built-in.a := rm -f net/ipv6/built-in.a;  printf "net/ipv6/%s " netfilter/built-in.a addrconf_core.o exthdrs_core.o ip6_checksum.o ip6_icmp.o output_core.o protocol.o ip6_offload.o tcpv6_offload.o exthdrs_offload.o inet6_hashtables.o mcast_snoop.o | xargs ar cDPrST net/ipv6/built-in.a

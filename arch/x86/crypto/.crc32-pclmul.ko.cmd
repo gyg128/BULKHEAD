@@ -1,0 +1,1 @@
+cmd_arch/x86/crypto/crc32-pclmul.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/x86/crypto/crc32-pclmul.ko arch/x86/crypto/crc32-pclmul.o arch/x86/crypto/crc32-pclmul.mod.o;  true

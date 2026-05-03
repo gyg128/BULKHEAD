@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/common/snd-soc-acpi-intel-match.o := ld -m elf_x86_64 -z noexecstack   -r -o sound/soc/intel/common/snd-soc-acpi-intel-match.o @sound/soc/intel/common/snd-soc-acpi-intel-match.mod 

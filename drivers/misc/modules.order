@@ -1,0 +1,3 @@
+drivers/misc/eeprom/ee1004.ko
+drivers/misc/mei/mei.ko
+drivers/misc/mei/mei-me.ko

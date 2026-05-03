@@ -1,0 +1,1 @@
+cmd_drivers/powercap/intel_rapl_common.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/powercap/intel_rapl_common.ko drivers/powercap/intel_rapl_common.o drivers/powercap/intel_rapl_common.mod.o;  true

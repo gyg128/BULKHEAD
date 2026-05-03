@@ -1,0 +1,87 @@
+!<thin>
+//                                              686       `
+trace_clock.o/
+ftrace.o/
+ring_buffer.o/
+trace.o/
+trace_output.o/
+trace_seq.o/
+trace_stat.o/
+trace_printk.o/
+pid_list.o/
+tracing_map.o/
+trace_sched_switch.o/
+trace_functions.o/
+trace_sched_wakeup.o/
+trace_hwlat.o/
+trace_nop.o/
+trace_stack.o/
+trace_mmiotrace.o/
+trace_functions_graph.o/
+blktrace.o/
+fgraph.o/
+trace_events.o/
+trace_export.o/
+trace_syscalls.o/
+trace_event_perf.o/
+trace_events_filter.o/
+trace_events_trigger.o/
+trace_eprobe.o/
+trace_events_inject.o/
+trace_events_synth.o/
+trace_events_hist.o/
+bpf_trace.o/
+trace_kprobe.o/
+error_report-traces.o/
+power-traces.o/
+rpm-traces.o/
+trace_kdb.o/
+trace_dynevent.o/
+trace_probe.o/
+trace_uprobe.o/
+trace_boot.o/
+fprobe.o/
+rethook.o/
+
+/0              0           0     0     644     17000     `
+/15             0           0     0     644     626360    `
+/25             0           0     0     644     467616    `
+/40             0           0     0     644     882224    `
+/49             0           0     0     644     303128    `
+/65             0           0     0     644     128128    `
+/78             0           0     0     644     221288    `
+/92             0           0     0     644     220216    `
+/108            0           0     0     644     219816    `
+/120            0           0     0     644     59496     `
+/135            0           0     0     644     209368    `
+/157            0           0     0     644     258840    `
+/176            0           0     0     644     265704    `
+/198            0           0     0     644     261032    `
+/213            0           0     0     644     200224    `
+/226            0           0     0     644     240576    `
+/241            0           0     0     644     237000    `
+/260            0           0     0     644     278848    `
+/285            0           0     0     644     358264    `
+/297            0           0     0     644     222896    `
+/307            0           0     0     644     426336    `
+/323            0           0     0     644     225888    `
+/339            0           0     0     644     245840    `
+/357            0           0     0     644     238920    `
+/377            0           0     0     644     284848    `
+/400            0           0     0     644     310328    `
+/424            0           0     0     644     287992    `
+/440            0           0     0     644     217952    `
+/463            0           0     0     644     318960    `
+/485            0           0     0     644     511224    `
+/506            0           0     0     644     614760    `
+/519            0           0     0     644     500336    `
+/535            0           0     0     644     207936    `
+/558            0           0     0     644     378072    `
+/574            0           0     0     644     233152    `
+/588            0           0     0     644     214800    `
+/601            0           0     0     644     224272    `
+/619            0           0     0     644     279136    `
+/634            0           0     0     644     490208    `
+/650            0           0     0     644     238048    `
+/664            0           0     0     644     223456    `
+/674            0           0     0     644     161544    `

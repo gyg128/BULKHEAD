@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/built-in.a := rm -f drivers/pinctrl/intel/built-in.a;  printf "drivers/pinctrl/intel/%s " pinctrl-baytrail.o pinctrl-cherryview.o pinctrl-intel.o | xargs ar cDPrST drivers/pinctrl/intel/built-in.a

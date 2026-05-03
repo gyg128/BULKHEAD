@@ -1,0 +1,4 @@
+sound/soc/intel/common/snd-soc-acpi-intel-match.ko
+sound/soc/intel/atom/snd-soc-sst-atom-hifi2-platform.ko
+sound/soc/intel/atom/sst/snd-intel-sst-core.ko
+sound/soc/intel/atom/sst/snd-intel-sst-acpi.ko

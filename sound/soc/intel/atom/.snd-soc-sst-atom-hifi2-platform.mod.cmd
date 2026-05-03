@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/atom/snd-soc-sst-atom-hifi2-platform.mod := printf '%s\n'   sst-mfld-platform-pcm.o sst-mfld-platform-compress.o sst-atom-controls.o | awk '!x[$$0]++ { print("sound/soc/intel/atom/"$$0) }' > sound/soc/intel/atom/snd-soc-sst-atom-hifi2-platform.mod

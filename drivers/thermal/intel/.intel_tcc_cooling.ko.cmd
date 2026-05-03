@@ -1,0 +1,1 @@
+cmd_drivers/thermal/intel/intel_tcc_cooling.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/thermal/intel/intel_tcc_cooling.ko drivers/thermal/intel/intel_tcc_cooling.o drivers/thermal/intel/intel_tcc_cooling.mod.o;  true

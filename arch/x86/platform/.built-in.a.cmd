@@ -1,0 +1,1 @@
+cmd_arch/x86/platform/built-in.a := rm -f arch/x86/platform/built-in.a;  printf "arch/x86/platform/%s " atom/built-in.a ce4100/built-in.a efi/built-in.a geode/built-in.a iris/built-in.a intel/built-in.a intel-mid/built-in.a intel-quark/built-in.a olpc/built-in.a scx200/built-in.a ts5500/built-in.a uv/built-in.a | xargs ar cDPrST arch/x86/platform/built-in.a

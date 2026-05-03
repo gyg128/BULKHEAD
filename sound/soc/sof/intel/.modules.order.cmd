@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/intel/modules.order := {   echo sound/soc/sof/intel/snd-sof-intel-hda-common.ko;   echo sound/soc/sof/intel/snd-sof-intel-hda.ko;   echo sound/soc/sof/intel/snd-sof-pci-intel-tgl.ko; :; } > sound/soc/sof/intel/modules.order

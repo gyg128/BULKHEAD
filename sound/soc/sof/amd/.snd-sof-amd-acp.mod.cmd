@@ -1,0 +1,1 @@
+cmd_sound/soc/sof/amd/snd-sof-amd-acp.mod := printf '%s\n'   acp.o acp-loader.o acp-ipc.o acp-pcm.o acp-stream.o acp-trace.o acp-common.o | awk '!x[$$0]++ { print("sound/soc/sof/amd/"$$0) }' > sound/soc/sof/amd/snd-sof-amd-acp.mod

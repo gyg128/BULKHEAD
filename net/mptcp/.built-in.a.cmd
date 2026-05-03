@@ -1,0 +1,1 @@
+cmd_net/mptcp/built-in.a := rm -f net/mptcp/built-in.a;  printf "net/mptcp/%s " protocol.o subflow.o options.o token.o crypto.o ctrl.o pm.o diag.o mib.o pm_netlink.o sockopt.o pm_userspace.o syncookies.o bpf.o | xargs ar cDPrST net/mptcp/built-in.a

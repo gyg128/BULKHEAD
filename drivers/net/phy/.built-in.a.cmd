@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/built-in.a := rm -f drivers/net/phy/built-in.a;  printf "drivers/net/phy/%s " mdio-boardinfo.o mdio_devres.o phy.o phy-c45.o phy-core.o phy_device.o linkmode.o mdio_bus.o mdio_device.o swphy.o phy_led_triggers.o mii_timestamper.o bcm84881.o fixed_phy.o | xargs ar cDPrST drivers/net/phy/built-in.a

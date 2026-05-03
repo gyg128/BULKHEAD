@@ -1,0 +1,111 @@
+!<thin>
+//                                              874       `
+common/common.o/
+common/debug.o/
+common/led.o/
+core/usb.o/
+core/hub.o/
+core/hcd.o/
+core/urb.o/
+core/message.o/
+core/driver.o/
+core/config.o/
+core/file.o/
+core/buffer.o/
+core/sysfs.o/
+core/endpoint.o/
+core/devio.o/
+core/notify.o/
+core/generic.o/
+core/quirks.o/
+core/devices.o/
+core/phy.o/
+core/port.o/
+core/hcd-pci.o/
+core/usb-acpi.o/
+dwc2/core.o/
+dwc2/core_intr.o/
+dwc2/platform.o/
+dwc2/drd.o/
+dwc2/params.o/
+dwc2/hcd.o/
+dwc2/hcd_intr.o/
+dwc2/hcd_queue.o/
+dwc2/hcd_ddma.o/
+dwc2/debugfs.o/
+host/pci-quirks.o/
+host/ehci-hcd.o/
+host/ehci-pci.o/
+host/ehci-platform.o/
+host/ohci-hcd.o/
+host/ohci-pci.o/
+host/ohci-platform.o/
+host/uhci-hcd.o/
+host/xhci.o/
+host/xhci-mem.o/
+host/xhci-ext-caps.o/
+host/xhci-ring.o/
+host/xhci-hub.o/
+host/xhci-dbg.o/
+host/xhci-trace.o/
+host/xhci-dbgcap.o/
+host/xhci-dbgtty.o/
+host/xhci-debugfs.o/
+early/ehci-dbgp.o/
+early/xhci-dbc.o/
+roles/class.o/
+
+/0              0           0     0     644     214696    `
+/17             0           0     0     644     17512     `
+/33             0           0     0     644     148912    `
+/47             0           0     0     644     288904    `
+/59             0           0     0     644     589624    `
+/71             0           0     0     644     385784    `
+/83             0           0     0     644     231496    `
+/95             0           0     0     644     358000    `
+/111            0           0     0     644     272584    `
+/126            0           0     0     644     213104    `
+/141            0           0     0     644     174480    `
+/154            0           0     0     644     180440    `
+/169            0           0     0     644     264144    `
+/183            0           0     0     644     173568    `
+/200            0           0     0     644     386624    `
+/214            0           0     0     644     165968    `
+/229            0           0     0     644     174488    `
+/245            0           0     0     644     191248    `
+/260            0           0     0     644     198536    `
+/276            0           0     0     644     211216    `
+/288            0           0     0     644     224896    `
+/301            0           0     0     644     228088    `
+/317            0           0     0     644     201360    `
+/334            0           0     0     644     320080    `
+/347            0           0     0     644     309552    `
+/365            0           0     0     644     283184    `
+/382            0           0     0     644     255824    `
+/394            0           0     0     644     279128    `
+/409            0           0     0     644     589448    `
+/421            0           0     0     644     350104    `
+/438            0           0     0     644     299656    `
+/456            0           0     0     644     286816    `
+/473            0           0     0     644     277784    `
+/489            0           0     0     644     228888    `
+/508            0           0     0     644     627872    `
+/525            0           0     0     644     214752    `
+/542            0           0     0     644     277112    `
+/564            0           0     0     644     427640    `
+/581            0           0     0     644     211544    `
+/598            0           0     0     644     254496    `
+/620            0           0     0     644     373368    `
+/637            0           0     0     644     583064    `
+/650            0           0     0     644     359784    `
+/667            0           0     0     644     203808    `
+/689            0           0     0     644     492520    `
+/707            0           0     0     644     320856    `
+/724            0           0     0     644     183064    `
+/741            0           0     0     644     483984    `
+/760            0           0     0     644     272416    `
+/780            0           0     0     644     240984    `
+/800            0           0     0     644     257224    `
+/821            0           0     0     644     221024    `
+/840            0           0     0     644     235152    `
+/858            0           0     0     644     133832    `

@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.a := rm -f drivers/char/built-in.a;  printf "drivers/char/%s " mem.o random.o ttyprintk.o misc.o virtio_console.o hpet.o hw_random/built-in.a agp/built-in.a tpm/built-in.a | xargs ar cDPrST drivers/char/built-in.a

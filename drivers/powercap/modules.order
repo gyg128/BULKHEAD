@@ -1,0 +1,2 @@
+drivers/powercap/intel_rapl_common.ko
+drivers/powercap/intel_rapl_msr.ko

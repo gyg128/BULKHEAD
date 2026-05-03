@@ -1,0 +1,1 @@
+cmd_drivers/dma/modules.order := {   cat drivers/dma/hsu/modules.order;   cat drivers/dma/idxd/modules.order;   cat drivers/dma/lgm/modules.order;   cat drivers/dma/mediatek/modules.order;   cat drivers/dma/qcom/modules.order;   cat drivers/dma/ti/modules.order;   cat drivers/dma/xilinx/modules.order;   echo drivers/dma/idma64.ko; :; } > drivers/dma/modules.order
